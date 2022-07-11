@@ -1,0 +1,11 @@
+input.txt
+output.txt
+out.txt
+sample
+sample2
+sample2.c
+sampleprog.c
+shell
+terminal.c
+yshell
+yterminal.c

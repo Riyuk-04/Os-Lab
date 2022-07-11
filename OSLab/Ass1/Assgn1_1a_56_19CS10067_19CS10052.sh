@@ -1,0 +1,1 @@
+for((i=2;i<=$1;i++));do while [ $(($1%$i)) == 0 ];do printf "$i "&&set $(($1/$i));done;done

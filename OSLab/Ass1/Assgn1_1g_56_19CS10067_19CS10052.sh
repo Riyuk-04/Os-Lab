@@ -1,0 +1,1 @@
+shuf -i 1-1500|sed -z 's/\n/,/g'|sed 's/,/\n/10;P;D' > $1;awk -F"," "{print \$$2}" $1|grep -q $3&&{ echo "YES";}||{ echo "NO";}

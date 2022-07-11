@@ -1,0 +1,1 @@
+awk "{print \$$2}" $1|awk '{print tolower($0)}'|sort|uniq -c|sort -nr|awk "{print \$2, \$1 >\"1f_output_$2_column.freq\"}"
